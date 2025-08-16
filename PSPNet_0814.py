@@ -1,5 +1,3 @@
-# xsimplechat
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -496,4 +494,5 @@ def calculate_metrics(pred: torch.Tensor, target: torch.Tensor, num_classes: int
     }
 
 if __name__ == "__main__":
+
     train_model()
